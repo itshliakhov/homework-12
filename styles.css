@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin:0;
+  list-style: none;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.js--slider_list{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 20rem;
+  height: 10rem;
+  border: 0.3rem solid pink;
+  border-radius: 2rem;
+}
+.js--slider_list li {
+  display: none;
+}
+li.active{
+  display: flex;
+}
+.non-active{
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+.Btn {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 3rem;
+  cursor:pointer;
+  transition: 0.3s all;
+  height: 2rem;
+  border: 0.2rem solid #000;
+  border-radius: 2rem;
+}
+
+.prevBtn {
+  margin-right: 2rem;
+}
+.nextBtn {
+  margin-left: 2rem;
+}
